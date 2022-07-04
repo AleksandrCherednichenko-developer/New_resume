@@ -1,0 +1,104 @@
+.step-7 {
+   h6 {
+      margin-bottom: 16px;
+   }
+   .error-message {
+      color: var(--red-300);
+      margin-bottom: 16px;
+   }
+   .resume-visibility {
+      .item {
+         margin-bottom: 14px;
+         label {
+            gap: 8px;
+            margin-bottom: 4px;
+         }
+         .item__description {
+            color: var(--gray-800);
+            margin-left: 24px;
+         }
+         .resume-show-company,
+         .resume-dont-show-company {
+            color: var(--orange-600);
+            background-color: transparent;
+            margin-left: 24px;
+            margin-bottom: 4px;
+         }
+      }
+   }
+   .resume-anonymous__checkbox {
+      margin-bottom: 14px;
+      label {
+         gap: 8px;
+         margin-bottom: 4px;
+      }
+      .item__description {
+         color: var(--gray-800);
+         margin-left: 24px;
+      }
+   }
+   .resume-dont-show__list {
+      margin-left: 24px;
+      margin-bottom: 24px;
+      h6 {
+         color: var(--gray-800);
+         margin-bottom: 14px;
+      }
+      label {
+         color: var(--gray-800);
+         margin-bottom: 10px;
+      }
+   }
+   .type__publication {
+      margin-bottom: 28px;
+      h6 {
+         margin-bottom: 16px;
+      }
+      .error-message {
+         color: var(--red-300);
+         margin-bottom: 16px;
+      }
+      .type__publication-list {
+         .item {
+            margin-bottom: 16px;
+            &:last-child {
+               margin-bottom: 0px;
+            }
+            label {
+               gap: 10px;
+               margin-bottom: 7.5px;
+            }
+            &__description {
+               color: var(--gray-850);
+               margin-left: 26px;
+               margin-bottom: 2px;
+            }
+            &__period {
+               color: var(--gray-850);
+               margin-left: 26px;
+               margin-bottom: 8px;
+            }
+            &__price {
+               margin-left: 26px;
+            }
+         }
+      }
+   }
+   .resume-agreement {
+      color: var(--gray-700);
+      .agreement__link {
+         &:hover {
+            color: var(--orange-600);
+         }
+      }
+      &.error {
+         color: var(--red-300);
+         .agreement__link {
+            color: var(--red-300);
+            &:hover {
+               color: var(--orange-600);
+            }
+         }
+      }
+   }
+}

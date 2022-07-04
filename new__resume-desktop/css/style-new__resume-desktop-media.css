@@ -1,0 +1,64 @@
+@media (max-width: 1170px) {
+   .step-2 .have__experience-block .list__place-work .item {
+      flex-wrap: wrap;
+      max-width: 50%;
+      width: auto;
+   }
+   .step-2 .have__experience-block .list__place-work {
+      -ms-flex-direction: row;
+      flex-direction: row;
+   }
+
+   .step-3 .skills__list .item {
+      max-width: 50%;
+      width: auto;
+   }
+}
+
+@media (max-width: 990px) {
+   .step-4 .basic-information {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      margin-bottom: 36px;
+   }
+   .step-4 .basic-information .date-of-birth__input {
+      justify-content: start;
+   }
+}
+
+@media (max-width: 940px) {
+   .main__wrapper {
+      -ms-grid-columns: 1fr 210px;
+      grid-template-columns: 1fr 210px;
+      gap: 0px 40px;
+   }
+   .step .wrapper .step__value {
+      gap: 10px;
+   }
+   .step-1 .income__input-inner {
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media (max-width: 890px) {
+   .step-4 .personal-information {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      margin-bottom: 36px;
+   }
+}
+
+@media (max-width: 860px) {
+   .popup__preview {
+      max-width: 690px;
+   }
+   .close-popup {
+      top: 10px !important;
+      right: 10px !important;
+   }
+}

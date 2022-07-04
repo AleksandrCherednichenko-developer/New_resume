@@ -1,0 +1,231 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   font-family: "Inter", sans-serif;
+}
+body {
+   color: var(--gray-900);
+   cursor: default;
+   overflow-x: hidden;
+   &.lock {
+      position: fixed;
+      overflow: hidden;
+      width: 100vw;
+   }
+}
+a {
+   color: inherit;
+   text-decoration: none;
+}
+input::placeholder {
+   color: var(--gray-850);
+}
+.container {
+   max-width: 1190px;
+   margin: 0 auto;
+   padding: 0 25px;
+}
+
+.header {
+   height: 42px;
+   background: var(--gray-600);
+}
+
+.main__wrapper {
+   margin-top: 32px;
+   display: grid;
+   grid-template-columns: 1fr 224px;
+   gap: 0px 90px;
+}
+
+.background {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   z-index: 20;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(41, 40, 40, 0.6);
+   opacity: 0;
+   visibility: hidden;
+   transition: 0.3s all;
+   -webkit-transition: 0.3s all;
+   -moz-transition: 0.3s all;
+   -ms-transition: 0.3s all;
+   -o-transition: 0.3s all;
+   backdrop-filter: blur(8px);
+   &.active {
+      opacity: 1;
+      visibility: visible;
+   }
+}
+
+.hide {
+   display: none !important;
+}
+
+.dont-click {
+   opacity: 0.6;
+   pointer-events: none;
+}
+
+// стили для чекбоксов
+label {
+   position: relative;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   cursor: pointer;
+   input {
+      display: none;
+   }
+   input:checked + span::before {
+      opacity: 1;
+   }
+   &.switcher-btn {
+      input:checked + span {
+         background-color: var(--orange-600);
+      }
+      input:checked + span::before {
+         left: 11px;
+      }
+      span {
+         position: relative;
+         display: inline-block;
+         min-width: 26px;
+         height: 17px;
+         background-color: var(--gray-500);
+         border-radius: 5px;
+         -webkit-border-radius: 5px;
+         -moz-border-radius: 5px;
+         -ms-border-radius: 5px;
+         -o-border-radius: 5px;
+         transition: 0.3s all;
+         -webkit-transition: 0.3s all;
+         -moz-transition: 0.3s all;
+         -ms-transition: 0.3s all;
+         -o-transition: 0.3s all;
+      }
+      span::before {
+         content: "";
+         position: absolute;
+         top: 2px;
+         left: 2px;
+         width: 13px;
+         height: 13px;
+         background-color: var(--white);
+         border-radius: 4px;
+         -webkit-border-radius: 4px;
+         -moz-border-radius: 4px;
+         -ms-border-radius: 4px;
+         -o-border-radius: 4px;
+         transition: 0.3s all;
+         -webkit-transition: 0.3s all;
+         -moz-transition: 0.3s all;
+         -ms-transition: 0.3s all;
+         -o-transition: 0.3s all;
+      }
+   }
+   &.checkbox-btn {
+      input:checked + span {
+         border-color: var(--orange-600);
+      }
+      span {
+         position: relative;
+         display: inline-block;
+         min-width: 16px;
+         height: 16px;
+         background-color: var(--gray-100);
+         border: 1px solid var(--gray-500);
+         border-radius: 2px;
+         -webkit-border-radius: 2px;
+         -moz-border-radius: 2px;
+         -ms-border-radius: 2px;
+         -o-border-radius: 2px;
+      }
+      span::before {
+         content: "";
+         position: absolute;
+         top: -1px;
+         left: -1px;
+         transform: translate(0);
+         width: 16px;
+         height: 16px;
+         background-image: url("data:image/svg+xml,%3Csvg width='10' height='8' viewBox='0 0 10 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 3.67324L3.72698 6.15559L9 1.35559' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+         background-repeat: no-repeat;
+         background-position: center;
+         background-color: var(--orange-600);
+         border-radius: 2px;
+         -webkit-border-radius: 2px;
+         -moz-border-radius: 2px;
+         -ms-border-radius: 2px;
+         -o-border-radius: 2px;
+         transition: opacity 0.3s;
+         -webkit-transition: opacity 0.3s;
+         -moz-transition: opacity 0.3s;
+         -ms-transition: opacity 0.3s;
+         -o-transition: opacity 0.3s;
+         opacity: 0;
+      }
+   }
+   &.radio-btn {
+      input:checked + span {
+         border-color: var(--orange-600);
+      }
+      span {
+         position: relative;
+         display: inline-block;
+         min-width: 16px;
+         height: 16px;
+         background-color: var(--gray-100);
+         border: 1px solid var(--gray-500);
+         border-radius: 50%;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+      }
+      span::before {
+         content: "";
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 8px;
+         height: 8px;
+         background-color: var(--orange-600);
+         border-radius: 50%;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+         opacity: 0;
+      }
+   }
+}
+
+@import "_left__content";
+@import "_step-1";
+@import "_step-2";
+@import "_step-3";
+@import "_step-4";
+@import "_step-5";
+@import "_step-6";
+@import "_step-7";
+@import "_step__value";
+
+@import "_popup__categories";
+@import "_popup__specalisation";
+@import "_popup__new-place-work";
+@import "_popup__education";
+@import "_popup__additional-education";
+@import "_popup__crop-image";
+@import "_popup__resume-show-company";
+@import "_popup__preview";
+@import "_popup__publication";

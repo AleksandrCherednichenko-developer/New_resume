@@ -1,0 +1,1751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>new__resume-mobile</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.2/croppie.min.css">
+   <!-- редактор изображения -->
+
+   <link rel="stylesheet" href="../components.css">
+   <link rel="stylesheet" href="../variables.css">
+   <link rel="stylesheet" href="css/style-new__resume-mobile.css">
+   <link rel="stylesheet" href="css/style-new__resume-mobile-media.css">
+</head>
+
+<body>
+
+   <header class="header"></header>
+
+   <main class="main">
+      <div class="main__wrapper">
+
+         <div class="resume__title-block">
+            <p class="text-s14-h20-w400">Сохранено в черновики в 16:30</p>
+            <p class="close-btn"></p>
+         </div>
+
+         <div class="container">
+            <section class="step text-s15-h18-w400">
+               <div class="step__value now" data-value="1">
+                  <div class="number">
+                  </div>
+                  <p class="text">Локация и компания</p>
+               </div>
+               <p class="line" data-value="1"></p>
+
+               <div class="step__value " data-value="2">
+                  <div class="number">
+                  </div>
+                  <p class="text">Основная информация</p>
+               </div>
+               <p class="line" data-value="2"></p>
+
+               <div class="step__value" data-value="3">
+                  <div class="number">
+                  </div>
+                  <p class="text">Условия работы</p>
+               </div>
+               <p class="line" data-value="3"></p>
+
+               <div class="step__value" data-value="4">
+                  <div class="number">
+                  </div>
+                  <p class="text">Требования</p>
+               </div>
+               <p class="line" data-value="4"></p>
+
+               <div class="step__value " data-value="5">
+                  <div class="number">
+                  </div>
+                  <p class="text">Контакты</p>
+               </div>
+               <p class="line" data-value="5"></p>
+
+               <div class="step__value " data-value="6">
+                  <div class="number">
+                  </div>
+                  <p class="text">Изображения</p>
+               </div>
+               <p class="line" data-value="6"></p>
+
+               <div class="step__value" data-value="7">
+                  <div class="number">
+                  </div>
+                  <p class="text">Публикация</p>
+               </div>
+            </section>
+         </div>
+
+         <div class="step__inner">
+            <div class="section-step step-1 " data-value="1">
+               <div class="section__inner">
+                  <div class="career-object">
+                     <h6 class="text-s16-h22-w500">Желаемая должность</h6>
+                     <div class="career-object__input text-s14-h20-w400">
+                        <input type="text" placeholder="Введите желаемую должность" minlength="3" maxlength="60">
+                        <p class="career-object__input-clear hide"></p>
+                        <p class="career-object__error text-s14-h20-w400 hide">Поле должно быть заполнено</p>
+
+                        <div class="career-object__input-list hide"></div>
+                     </div>
+                     <div class="career-object__default">
+                        <p class="item" data-value="водитель">водитель</p>
+                        <p class="item" data-value="кладовщик">кладовщик</p>
+                        <p class="item" data-value="официант">официант</p>
+                        <p class="item" data-value="администратор">администратор</p>
+                        <p class="item" data-value="бухгалтер">бухгалтер</p>
+                        <p class="item" data-value="руководитель">руководитель</p>
+                        <p class="item" data-value="программист">программист</p>
+                        <p class="item" data-value="секретарь">секретарь</p>
+                        <p class="item" data-value="менеджер">менеджер</p>
+                        <p class="item" data-value="экономист">экономист</p>
+                        <p class="item" data-value="инженер">инженер</p>
+                        <p class="item" data-value="помощник">помощник</p>
+                     </div>
+                  </div>
+
+                  <div class="income">
+                     <h6 class="text-s16-h22-w600">Желаемая заработная плата на руки</h6>
+                     <div class="income__inner">
+                        <div class="income__input text-s15-h18-w400">
+                           <input type="text" maxlength="7" placeholder="Введите сумму">
+                           <p class="clear"></p>
+                        </div>
+                        <div class="income__currency">
+                           <p class="item" data-value="" data-name="RUB">RUB</p>
+                           <img src="images/arrow-select.svg" alt="arrow">
+                        </div>
+                        <div class="income__period">
+                           <p class="item" data-value="" data-name="В месяц">В месяц</p>
+                           <p class="item" data-value="" data-name="В день">В день</p>
+                           <p class="item" data-value="" data-name="В неделю">В неделю</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <p class="vacancy__specialisation-error text-s14-h20-w400 hide">Специализация не выбрана</p>
+
+                  <div class="vacancy__categories">
+                     <p class="vacancy__categories-title text-s13-h16-w400">Профессиональная область</p>
+                     <p class="vacancy__categories-text text-s15-h18-w400" data-value="">Выберите профобласть</p>
+                  </div>
+
+                  <div class="vacancy__specialisation dont-click">
+                     <p class="vacancy__specialisation-title text-s13-h16-w400">Специализация</p>
+                     <p class="vacancy__specialisation-text text-s15-h18-w400" data-value="">Выберите специализацию</p>
+                  </div>
+               </div>
+
+               <div class="section__bottom">
+                  <button class="next-btn text-s16-h22-w500">Далее</button>
+               </div>
+            </div>
+            <div class="section-step step-2 hide" data-value="2">
+               <div class="section__inner">
+                  <label class="experience-switcher switcher-btn">
+                     <p>Есть опыт работы</p>
+                     <input type="checkbox">
+                     <span></span>
+                  </label>
+                  <div class="no__experience-block active">
+                     <p class="prompt text-s14-h20-w400">
+                        А вы знаете, что 80% работодателей не рассматривают кандидатов без опыта работы? Если хотите
+                        перейти на новый этап поиска, то не откладывайте и указывайте свой опыт в резюме. А если
+                        его нет, объясните причину отсутствия.
+                     </p>
+                     <div class="variables text-s14-h20-w400">
+                        <p class="variables__item" data-value="В последние годы я находился(ась) в декретном отпуске.">
+                           отпуск по уходу за ребёнком</p>
+                        <p class="variables__item"
+                           data-value="В последние годы я проходил(а) обучение без возможности работать.">учёба</p>
+                        <p class="variables__item" data-value="В последние годы я проходил(а) службу в армии.">армия</p>
+                        <p class="variables__item" data-value="В последние годы я находился(ась) на пенсии.">пенсия</p>
+                        <p class="variables__item" data-value="В последние годы я находился(ась) в поисках работы.">
+                           безработный</p>
+                        <p class="variables__item"
+                           data-value="В последние годы я работал(а) по другой специальности. В данной специальности опыта нет.">
+                           смена профобласти</p>
+                     </div>
+                     <textarea class="text"></textarea>
+                  </div>
+                  <div class="have__experience-block ">
+                     <div class="list__place-work text-s15-h18-w400 hide"></div>
+                     <p class="new__place-work text-s15-h18-w400">+ Добавить место работы</p>
+                  </div>
+               </div>
+
+               <div class="section__bottom">
+                  <button class="back-btn text-s16-h22-w500">Назад</button>
+                  <button class="next-btn text-s16-h22-w500">Далее</button>
+               </div>
+            </div>
+            <div class="section-step step-3 hide" data-value="3">
+               <div class="section__inner">
+                  <div class="skills">
+                     <p class="skills-title text-s13-h16-w400">Ключевые навыки</p>
+                     <p class="skills-text text-s15-h18-w400" data-value="">Выберите ключевые навыки</p>
+                  </div>
+
+                  <div class="education">
+                     <h6 class="text-s16-h22-w500">Основное образование</h6>
+                     <label class="education__switcher switcher-btn" data-value="1">
+                        <p class="text-s14-h20-w400">Только среднее образование</p>
+                        <input type="checkbox">
+                        <span></span>
+                     </label>
+                     <div class="education__add-list hide">
+                     </div>
+                     <button class="education__add text-s14-h20-w500">+ Добавить учреждение</button>
+                  </div>
+
+                  <div class="additional__education">
+                     <h6 class="text-s16-h22-w500">Дополнительное образование</h6>
+                     <div class="additional__education-add-list hide"></div>
+                     <button class="additional__education-add text-s14-h20-w500">+ Добавить курс/тренинг</button>
+                  </div>
+
+                  <div class="languages">
+                     <p class="languages-title text-s13-h16-w400">Знание языков</p>
+                     <p class="languages-text text-s15-h18-w400" data-value="">Выберите языки и уровень</p>
+                  </div>
+               </div>
+               <div class="section__bottom">
+                  <button class="back-btn text-s16-h22-w500">Назад</button>
+                  <button class="next-btn text-s16-h22-w500">Далее</button>
+               </div>
+            </div>
+            <div class="section-step step-4 hide" data-value="4">
+               <div class="section__inner">
+                  <div class="personal__information">
+                     <h6 class="text-s16-h22-w600">Личные данные</h6>
+                     <div class="user__image">
+                        <input class="image__upload" type="file" accept="image/*" />
+                        <img class="image__picture" src="" />
+                        <img class="image__plaseholder" src="images/photo-icon.svg" alt="photo">
+                        <div class="image__add-menu">
+                           <p class="load text-s14-h20-w400">Загрузить новое</p>
+                           <p class="remove text-s14-h20-w400">Удалить</p>
+                        </div>
+                     </div>
+                     <input type="text" class="surname" placeholder="Фамилия" maxlength="30">
+                     <input type="text" class="name" placeholder="Имя" maxlength="30">
+                     <input type="text" class="patronymic" placeholder="Отчество" maxlength="30">
+                  </div>
+                  <div class="date-of-birth">
+                     <h6 class="text-s16-h22-w600">Дата рождения</h6>
+                     <div class="date-of-birth__input">
+                        <input type="text" class="day" placeholder="день" maxlength="2">
+                        <p class="month">месяц</p>
+                        <input type="text" class="year" placeholder="год" minlength="3" maxlength="4">
+                     </div>
+                  </div>
+                  <div class="gender">
+                     <h6 class="text-s16-h22-w600">Пол</h6>
+                     <p class="item text-s14-h20-w400" data-name="Мужской">Мужской</p>
+                     <p class="item text-s14-h20-w400" data-name="Женский">Женский</p>
+                  </div>
+                  <div class="city">
+                     <h6 class="text-s13-h16-w400">Город проживания</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите город</p>
+                  </div>
+                  <div class="underground hide">
+                     <h6 class="text-s13-h16-w400">Метро</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите станции</p>
+                  </div>
+                  <div class="citizenship">
+                     <h6 class="text-s13-h16-w400">Гражданство</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите страны</p>
+                  </div>
+                  <div class="work-permit">
+                     <h6 class="text-s13-h16-w400">Разрешение на работу</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите страны</p>
+                  </div>
+                  <div class="description">
+                     <h6 class="text-s16-h22-w500">О себе</h6>
+                     <textarea class="description__text text-s14-h20-w400" maxlength="3000"
+                        placeholder="Пример: Ищу работу с возможностью профессионального роста. Интересны трудные, масштабные проекты, в которых можно реализовать свой потенциал. Имею опыт руководства коллективом. Имею лидерские качества, ответственен и нацелен на результат."></textarea>
+                     <p class="description__text-count text-s12-h14-w400">Символов: <span>0</span> из 3000</p>
+                  </div>
+                  <div class="driver__license">
+                     <h6 class="text-s16-h22-w500">Категория прав</h6>
+                     <div class="driver__license-list1">
+                        <p class="item text-s12-h14-w400" data-value="" data-name="А">А</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="B">B</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="C">C</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="D">D</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="E">E</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="BE">BE</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="CE">CE</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="DE">DE</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="TM">TM</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="TB">TB</p>
+                     </div>
+                     <label class="driver__license-checkbox switcher-btn">
+                        <p class="text-s15-h18-w400">Есть личный транспорт</p>
+                        <input type="checkbox">
+                        <span></span>
+                     </label>
+                     <div class="driver__license-list2 dont-click">
+                        <p class="item text-s12-h14-w400" data-value="" data-name="А-класс">А-класс</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="B-класс">B-класс</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="C-класс">C-класс</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="D-класс">D-класс</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="Кроссовер">Кроссовер</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="Грузовая">Грузовая</p>
+                        <p class="item text-s12-h14-w400" data-value="" data-name="Минивэн">Минивэн</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="section__bottom">
+                  <button class="back-btn text-s16-h22-w500">Назад</button>
+                  <button class="next-btn text-s16-h22-w500">Далее</button>
+               </div>
+            </div>
+            <div class="section-step step-5 hide" data-value="5">
+               <div class="section__inner">
+                  <label class="only-remote-work switcher-btn">
+                     <p>Только удалённый формат работы</p>
+                     <input type="checkbox">
+                     <span></span>
+                  </label>
+
+                  <div class="work__format">
+                     <h6 class="text-s13-h16-w400">Формат работы</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите подходящие форматы работы</p>
+                  </div>
+
+                  <div class="schedule">
+                     <h6 class="text-s13-h16-w400">Тип занятость</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите подходящие варианты</p>
+                  </div>
+
+                  <div class="working__mode">
+                     <h6 class="text-s13-h16-w400">График работы</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите подходящие графики</p>
+                  </div>
+
+                  <div class="bonuses">
+                     <h6 class="text-s13-h16-w400">Доступные бонусы</h6>
+                     <p class="text-s15-h18-w400" data-value="">Выберите доступные бонусы</p>
+                  </div>
+
+                  <div class="business__trips">
+                     <h6 class="text-s16-h22-w600">Готовность к командировкам</h6>
+                     <div class="business__trips-items">
+                        <p class="item text-s14-h20-w400" data-name="Готов(а)">Готов(а)</p>
+                        <p class="item text-s14-h20-w400" data-name="Не готов(а)">Не готов(а)</p>
+                        <p class="item text-s14-h20-w400" data-name="Иногда">Иногда</p>
+                     </div>
+                  </div>
+
+                  <div class="relocation">
+                     <label class="relocation-switcher switcher-btn">
+                        <p>Переезд возможен</p>
+                        <input type="checkbox">
+                        <span></span>
+                     </label>
+                     <div class="relocation-block">
+                        <h6 class="text-s13-h16-w400">Переезд</h6>
+                        <p class="text-s15-h18-w400" data-value="">Выберите страны</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="section__bottom">
+                  <button class="back-btn text-s16-h22-w500">Назад</button>
+                  <button class="next-btn text-s16-h22-w500">Далее</button>
+               </div>
+            </div>
+            <div class="section-step step-6 hide" data-value="6">
+               <div class="section__inner">
+                  <h6 class="text-s16-h22-w600">Примеры работ, сертификаты, рекомендательные письма</h6>
+                  <div class="select-already-downloaded">
+                     <p class="text-s14-h20-w400">Выберите изображения из уже загруженных</p>
+                     <div class="select-already-downloaded__items">
+                        <label class="item checkbox-btn">
+                           <input type="checkbox">
+                           <span></span>
+                           <img src="./images/583767_jqqFJBfRJK_ape.jpeg" alt="">
+                        </label>
+                        <label class="item checkbox-btn">
+                           <input type="checkbox">
+                           <span></span>
+                           <img src="./images/583767_jqqFJBfRJK_ape.jpeg" alt="">
+                        </label>
+                        <label class="item checkbox-btn">
+                           <input type="checkbox">
+                           <span></span>
+                           <img src="./images/583767_jqqFJBfRJK_ape.jpeg" alt="">
+                        </label>
+                        <label class="item checkbox-btn">
+                           <input type="checkbox">
+                           <span></span>
+                           <img src="./images/583767_jqqFJBfRJK_ape.jpeg" alt="">
+                        </label>
+                        <label class="item checkbox-btn">
+                           <input type="checkbox">
+                           <span></span>
+                           <img src="./images/583767_jqqFJBfRJK_ape.jpeg" alt="">
+                        </label>
+                        <label class="item checkbox-btn">
+                           <input type="checkbox">
+                           <span></span>
+                           <img src="./images/583767_jqqFJBfRJK_ape.jpeg" alt="">
+                        </label>
+                     </div>
+                  </div>
+                  <div class="load-new-file">
+                     <form class="load__image" method="post" enctype="multipart/form-data" action="">
+                        <input class="load__image-input" id="file-input" type="file" name="file" multiple
+                           accept="image/jpeg,image/png,image/svg">
+                        <label class="load__image-label" id="dragdrop" for="file-input">
+                           <img src="images/load__icon.svg">
+                           <h6 class="text-s16-h22-w500">Добавить файлы или изображения</h6>
+                           <p class="text-s12-h14-w400">Jpeg, png, gif максимум: 10mb</p>
+                        </label>
+                     </form>
+                     <p class="error-message text-s14-h20-w400 hide">Загружаемые файлы превышают допустимый размер</p>
+                     <div class="load__image-preview hide" id="files">
+                     </div>
+                  </div>
+                  <div class="contact">
+                     <h6 class="text-s16-h22-w500">Рекомендатели</h6>
+                     <div class="contact__items">
+                        <div class="inner">
+                           <div class="item one" data-order="0">
+                              <input class="contact__full-name" type="text" placeholder="ФИО">
+                              <input class="contact__name-company" type="text" placeholder="Название компании">
+                              <input class="contact__telephone" type="text" placeholder="Номер телефона">
+                              <button class="contact__clear text-s14-h20-w400">Сбросить</button>
+                              <button class="contact__remove text-s14-h20-w400">Удалить</button>
+                           </div>
+                        </div>
+                        <button class="contact__add text-s14-h20-w500 dont-click">+ Добавить
+                           рекомендателя</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="section__bottom">
+                  <button class="back-btn text-s16-h22-w500">Назад</button>
+                  <button class="next-btn text-s16-h22-w500">Далее</button>
+               </div>
+            </div>
+            <div class="section-step step-7 hide" data-value="7">
+               <div class="section__inner">
+                  <div class="visibility">
+                     <div class="visibility-block">
+                        <h6 class="text-s16-h22-w500">Видимость резюме</h6>
+                        <p class="visibility-title text-s15-h18-w400" data-value="">Выберите тип видимости</p>
+                        <p class="visibility-text text-s13-h16-w400"></p>
+                        <p class="visibility-error text-s15-h18-w400 hide">Пожалуйста виберите тип видимости</p>
+                     </div>
+                     <button class="visibility-company hide">Указать компании</button>
+                  </div>
+
+                  <div class="anonymity">
+                     <label class="anonymity-switcher switcher-btn">
+                        <p>Анонимное резюме</p>
+                        <input type="checkbox">
+                        <span></span>
+                     </label>
+                     <div class="anonymity-block">
+                        <h6 class="text-s13-h16-w400">В анонимном резюме можно скрыть персональные данные, фото,
+                           контактную информацию или места работы. История откликов и все переписки с работодателем, где
+                           уже содержится ваше имя, сохранятся</h6>
+                        <p class="text-s15-h18-w400" data-value="">Выберите то что хотите скрыть</p>
+                     </div>
+                  </div>
+
+                  <div class="type__publication">
+                     <h6 class="text-s16-h22-w500">Тип публикации</h6>
+                     <p class="type__publication-title text-s15-h18-w400" data-value="">Выберите тип публикации</p>
+                     <p class="type__publication-text text-s13-h16-w400"></p>
+                     <p class="type__publication-error text-s15-h18-w400 hide">Пожалуйста виберите тип публикации</p>
+                  </div>
+
+                  <label class="agreement-checkbox switcher-btn">
+                     <p class="text-s15-h18-w400">Я принимаю правила сервиса</p>
+                     <input type="checkbox">
+                     <span></span>
+                  </label>
+               </div>
+               <div class="section__bottom">
+                  <button class="preview-btn text-s16-h22-w500">Предпросмотр</button>
+                  <button class="back-btn text-s16-h22-w500">Назад</button>
+                  <button class="publised-btn text-s16-h22-w500">Опубликовать</button>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </main>
+
+
+   <div class="background-list ">
+      <div class="categories__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Профессиональная область</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <label class="item" data-value="0">
+               <img src="images/categories/icon-0.svg" alt="icon">
+               <p>Авто, сервис, прокат</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="1">
+               <img src="images/categories/icon-1.svg" alt="icon">
+               <p>Административный персонал</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="2">
+               <img src="images/categories/icon-2.svg" alt="icon">
+               <p>Банки, инвестиции, лизинг</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="3">
+               <img src="images/categories/icon-3.svg" alt="icon">
+               <p>Безопасность, охрана</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="4">
+               <img src="images/categories/icon-4.svg" alt="icon">
+               <p>Бухгалтерия, финансы, аудит</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="5">
+               <img src="images/categories/icon-5.svg" alt="icon">
+               <p>Высший менеджмент</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="6">
+               <img src="images/categories/icon-6.svg" alt="icon">
+               <p>Госслужба</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="7">
+               <img src="images/categories/icon-7.svg" alt="icon">
+               <p>Добыча сырья</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="8">
+               <img src="images/categories/icon-8.svg" alt="icon">
+               <p>Домашний персонал</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="9">
+               <img src="images/categories/icon-9.svg" alt="icon">
+               <p>Закупки</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="10">
+               <img src="images/categories/icon-10.svg" alt="icon">
+               <p>Инсталляция и сервис</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="11">
+               <img src="images/categories/icon-11.svg" alt="icon">
+               <p>ИТ, интернет, телеком</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="12">
+               <img src="images/categories/icon-12.svg" alt="icon">
+               <p>Искусство, дизайн, развлечения</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="13">
+               <img src="images/categories/icon-13.svg" alt="icon">
+               <p>Консультирование</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="14">
+               <img src="images/categories/icon-14.svg" alt="icon">
+               <p>Маркетинг, реклама, PR</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="15">
+               <img src="images/categories/icon-15.svg" alt="icon">
+               <p>Медицина, фармацевтика</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="16">
+               <img src="images/categories/icon-16.svg" alt="icon">
+               <p>Наука, образование</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="17">
+               <img src="images/categories/icon-17.svg" alt="icon">
+               <p>Начало карьеры, студенты</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="18">
+               <img src="images/categories/icon-18.svg" alt="icon">
+               <p>Продажи</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="19">
+               <img src="images/categories/icon-19.svg" alt="icon">
+               <p>Производство, С/Х отрасль</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="20">
+               <img src="images/categories/icon-20.svg" alt="icon">
+               <p>Рабочий персонал</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="21">
+               <img src="images/categories/icon-21.svg" alt="icon">
+               <p>Спорт, фитнес, красота</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="22">
+               <img src="images/categories/icon-22.svg" alt="icon">
+               <p>Страхование</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="23">
+               <img src="images/categories/icon-23.svg" alt="icon">
+               <p>Строительство, недвижимость, ЖКХ</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="24">
+               <img src="images/categories/icon-24.svg" alt="icon">
+               <p>Транспорт, логистика, ВЭД</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="25">
+               <img src="images/categories/icon-25.svg" alt="icon">
+               <p>Туризм, рестораны, гостиницы</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="26">
+               <img src="images/categories/icon-26.svg" alt="icon">
+               <p>Управление персоналом, тренинги</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+            <label class="item" data-value="27">
+               <img src="images/categories/icon-27.svg" alt="icon">
+               <p>Юриспруденция</p>
+               <input type="radio" name="categories__list">
+               <span></span>
+            </label>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="next text-s16-h22-w500 dont-click">Далее</button>
+         </div>
+      </div>
+
+      <div class="specialisation__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Специализации</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <p class="categories__name text-s16-h22-w600"></p>
+            <label class="item radio-btn" data-value="0">
+               <p>Авто, сервис, прокат</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="1">
+               <p>Административный персонал</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="2">
+               <p>Банки, инвестиции, лизинг</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="3">
+               <p>Безопасность, охрана</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="4">
+               <p>Бухгалтерия, финансы, аудит</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="5">
+               <p>Высший менеджмент</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="6">
+               <p>Госслужба</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="7">
+               <p>Добыча сырья</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="8">
+               <p>Домашний персонал</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="9">
+               <p>Закупки</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+            <label class="item radio-btn" data-value="10">
+               <p>Инсталляция и сервис</p>
+               <input type="radio" name="specialisation__list">
+               <span></span>
+            </label>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="save text-s16-h22-w500 dont-click">Cохранить</button>
+         </div>
+      </div>
+
+      <div class="skills__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Ключевые навыки</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="skills__input">
+               <input type="text" placeholder="Введите ключевые навыки" minlength="3" maxlength="60">
+               <div class="list hide"></div>
+            </div>
+            <div class="skills__standart text-s14-h20-w400">
+               <p class="item">Опыт продаж</p>
+               <p class="item">Проактивность</p>
+               <p class="item">Уверенное владение компьютером</p>
+               <p class="item">Работа в команде</p>
+               <p class="item">Ведение переговоров</p>
+               <p class="item">Владение иностранными языками</p>
+               <p class="item">Внимание к деталям</p>
+               <p class="item">Умение расставлять приоритеты</p>
+            </div>
+            <div class="skills__add-list text-s14-h20-w400"></div>
+         </div>
+         <div class="list__bottom text-s16-h22-w400">
+            <button class="clear">Сбросить</button>
+            <button class="save">Cохранить</button>
+         </div>
+      </div>
+
+      <div class="language__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Знание языков</p>
+         </div>
+         <div class="list">
+            <div class="languages-native text-s15-h18-w400">
+               <div class="select-language">
+                  <div class="header">
+                     <p class="item" data-value="" data-name="">Выберите
+                        язык</p>
+                     <img src="images/arrow-select.svg" alt="arrow">
+                  </div>
+                  <div class="list hide">
+                     <div class="item" data-value="english" data-name="Английский">
+                        Английский
+                     </div>
+                     <div class="item" data-value="deutsch" data-name="Немецкий">
+                        Немецкий
+                     </div>
+                     <div class="item" data-value="chinese" data-name="Китайский">
+                        Китайский
+                     </div>
+                     <div class="item" data-value="hindi" data-name="Хинди">
+                        Хинди
+                     </div>
+                     <div class="item" data-value="spanish" data-name="Испанский">
+                        Испанский
+                     </div>
+                     <div class="item" data-value="russian" data-name="Русский">
+                        Русский
+                     </div>
+                     <div class="item" data-value="portuguese" data-name="Португальский">
+                        Португальский
+                     </div>
+                     <div class="item" data-value="indonesian" data-name="Индонезийский">
+                        Индонезийский
+                     </div>
+                     <div class="item" data-value="arab" data-name="Арабский">
+                        Арабский
+                     </div>
+                  </div>
+               </div>
+               <div class="select-lavel">
+                  <div class="header">
+                     <p class="item" data-value="native" data-name="Родной">
+                        Родной
+                     </p>
+                  </div>
+               </div>
+               <button class="clear-language text-s14-h20-w500">Очистить</button>
+            </div>
+            <div class="languages text-s15-h18-w400 one" data-count="0">
+               <div class="select-language">
+                  <div class="header">
+                     <p class="item" data-value="" data-name="">Выберите
+                        язык</p>
+                     <img src="images/arrow-select.svg" alt="arrow">
+                  </div>
+                  <div class="list hide">
+                     <div class="item" data-value="english" data-name="Английский">
+                        Английский
+                     </div>
+                     <div class="item" data-value="deutsch" data-name="Немецкий">
+                        Немецкий
+                     </div>
+                     <div class="item" data-value="chinese" data-name="Китайский">
+                        Китайский
+                     </div>
+                     <div class="item" data-value="hindi" data-name="Хинди">
+                        Хинди
+                     </div>
+                     <div class="item" data-value="spanish" data-name="Испанский">
+                        Испанский
+                     </div>
+                     <div class="item" data-value="russian" data-name="Русский">
+                        Русский
+                     </div>
+                     <div class="item" data-value="portuguese" data-name="Португальский">
+                        Португальский
+                     </div>
+                     <div class="item" data-value="indonesian" data-name="Индонезийский">
+                        Индонезийский
+                     </div>
+                     <div class="item" data-value="arab" data-name="Арабский">
+                        Арабский
+                     </div>
+                  </div>
+               </div>
+               <div class="select-lavel dont-click">
+                  <div class="header">
+                     <p class="item" data-value="" data-name="">
+                        Выберите уровень</p>
+                     <img src="images/arrow-select.svg" alt="arrow">
+                  </div>
+                  <div class="list hide">
+                     <div class="item" data-value="a1" data-name="A1 — начальный">
+                        A1 — начальный
+                     </div>
+                     <div class="item" data-value="a2" data-name="А2 – ниже среднего">
+                        А2 – ниже среднего
+                     </div>
+                     <div class="item" data-value="b1" data-name="В1 – средний">
+                        В1 – средний
+                     </div>
+                     <div class="item" data-value="b2" data-name="В2 – выше среднего">
+                        В2 – выше среднего
+                     </div>
+                     <div class="item" data-value="c1" data-name="C1 – продвинутый">
+                        C1 – продвинутый
+                     </div>
+                     <div class="item" data-value="c2" data-name="C2 – профессиональный">
+                        C2 – профессиональный
+                     </div>
+                  </div>
+               </div>
+               <button class="clear-language text-s14-h20-w500">Очистить</button>
+               <button class="remove-language text-s14-h20-w500">Удалить</button>
+            </div>
+            <button class="add-language dont-click text-s14-h20-w500">+Добавить язык</button>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="apply text-s16-h22-w500">Сохранить</button>
+         </div>
+      </div>
+
+      <div class="education__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Добавьте учреждение</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="education__name">
+               <h6 class="text-s16-h22-w500">Название учебного заведения</h6>
+               <input type="text" maxlength="60" placeholder="Введите название">
+            </div>
+            <div class="education__lavel">
+               <h6 class="text-s16-h22-w500">Уровень</h6>
+               <p>Выберите уровень</p>
+            </div>
+            <div class="education__specialization">
+               <h6 class="text-s16-h22-w500">Специализация</h6>
+               <input type="text" maxlength="60" placeholder="Введите специализацию">
+            </div>
+            <div class="education__faculty">
+               <h6 class="text-s16-h22-w500">Факультет</h6>
+               <input type="text" maxlength="60" placeholder="Введите название факультета">
+            </div>
+            <div class="education__year">
+               <div class="year__from">
+                  <h6 class="text-s16-h22-w500">Год начала</h6>
+                  <input type="text" maxlength="4">
+               </div>
+               <div class="year__to">
+                  <h6 class="text-s16-h22-w500">Год окончания</h6>
+                  <input type="text" maxlength="4">
+               </div>
+               <p class="prompt text-s11-h14-w400">Если учитесь в настоящее время — укажите год предполагаемого
+                  окончания</p>
+            </div>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="apply text-s16-h22-w500">Сохранить</button>
+         </div>
+      </div>
+
+      <div class="additional__education-list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Добавьте курсы/тренинги</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="additional__education-name">
+               <h6 class="text-s16-h22-w500">Название учебного заведения</h6>
+               <input type="text" maxlength="60" placeholder="Введите название">
+            </div>
+            <div class="additional__education-organization">
+               <h6 class="text-s16-h22-w500">Проводившая организация</h6>
+               <input type="text" maxlength="60" placeholder="Введите название организации">
+            </div>
+            <div class="additional__education-specialisation">
+               <h6 class="text-s16-h22-w500">Специализация</h6>
+               <input type="text" maxlength="60" placeholder="Введите специализацию">
+            </div>
+            <div class="additional__education-year">
+               <div class="year__from">
+                  <h6 class="text-s16-h22-w500">Год начала</h6>
+                  <input type="text" maxlength="4">
+               </div>
+               <div class="year__to">
+                  <h6 class="text-s16-h22-w500">Год окончания</h6>
+                  <input type="text" maxlength="4">
+               </div>
+               <p class="prompt text-s11-h14-w400">Если учитесь в настоящее время — укажите год предполагаемого
+                  окончания</p>
+            </div>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="apply text-s16-h22-w500">Сохранить</button>
+         </div>
+      </div>
+
+      <div class="citizenship__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Укажите гражданство</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <label class="item checkbox-btn" data-value="Россия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Россия</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Испания">
+               <input type="checkbox" name="citizenship__list">
+               <p>Испания</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Финлядия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Финлядия</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Болгария">
+               <input type="checkbox" name="citizenship__list">
+               <p>Болгария</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Македония">
+               <input type="checkbox" name="citizenship__list">
+               <p>Македония</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Португалия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Португалия</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Бельгия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Бельгия</p>
+               <span></span>
+            </label>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="apply text-s16-h22-w500">Сохранить</button>
+         </div>
+      </div>
+
+      <div class="work-permit__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Укажите разрешения на работу</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <label class="item checkbox-btn" data-value="Россия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Россия</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Испания">
+               <input type="checkbox" name="citizenship__list">
+               <p>Испания</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Финлядия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Финлядия</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Болгария">
+               <input type="checkbox" name="citizenship__list">
+               <p>Болгария</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Македония">
+               <input type="checkbox" name="citizenship__list">
+               <p>Македония</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Португалия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Португалия</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Бельгия">
+               <input type="checkbox" name="citizenship__list">
+               <p>Бельгия</p>
+               <span></span>
+            </label>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="apply text-s16-h22-w500">Сохранить</button>
+         </div>
+      </div>
+
+      <div class="city__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Выберите город проживания</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="city__input">
+               <input type="text" placeholder="Введите название города" minlength="3" maxlength="60">
+               <div class="list hide">
+                  <p class="item" data-value="Москва">Москва</p>
+                  <p class="item" data-value="Санкт-Петербург">Санкт-Петербург</p>
+                  <p class="item" data-value="Воронеж">Воронеж</p>
+                  <p class="item" data-value="Краснодар">Краснодар</p>
+                  <p class="item" data-value="Казань">Казань</p>
+                  <p class="item" data-value="Пушкин">Пушкин</p>
+                  <p class="item" data-value="Гатчика">Гатчика</p>
+                  <p class="item" data-value="Екатеринбург">Екатеринбург</p>
+                  <p class="item" data-value="Челябинск">Челябинск</p>
+                  <p class="item" data-value="Магнитогорск">Магнитогорск</p>
+               </div>
+            </div>
+            <p class="city__add-item text-s14-h20-w400 hide">
+               <span class="value"></span>
+               <span class="remove-btn"></span>
+            </p>
+         </div>
+         <div class="list__bottom text-s16-h22-w400">
+            <button class="clear">Сбросить</button>
+            <button class="save">Cохранить</button>
+         </div>
+      </div>
+
+      <div class="underground__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Выберите станции метро</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="underground__input">
+               <input type="text" placeholder="Введите название" minlength="3" maxlength="60">
+               <div class="list hide">
+                  <p class="item" data-value="Политехническая">Политехническая</p>
+                  <p class="item" data-value="Озерки">Озерки</p>
+                  <p class="item" data-value="Проспект просвященияя">Проспект просвященияя</p>
+                  <p class="item" data-value="Академическая">Академическая</p>
+                  <p class="item" data-value="Девяткино">Девяткино</p>
+                  <p class="item" data-value="Ленинский проспект">Ленинский проспект</p>
+                  <p class="item" data-value="Чекаловская">Чекаловская</p>
+                  <p class="item" data-value="Петроградская">Петроградская</p>
+                  <p class="item" data-value="Невский проспект">Невский проспект</p>
+                  <p class="item" data-value="Спортивная">Спортивная</p>
+               </div>
+            </div>
+            <div class="underground__add-list text-s14-h20-w400"></div>
+         </div>
+         <div class="list__bottom text-s16-h22-w400">
+            <button class="clear">Сбросить</button>
+            <button class="save">Cохранить</button>
+         </div>
+      </div>
+
+      <div class="bonuses__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Доступные бонусы</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <label class="item checkbox-btn" data-value="Белая зарплата">
+               <input type="checkbox">
+               <p>Белая зарплата</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Гибкий график">
+               <input type="checkbox">
+               <p>Гибкий график</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Парковочное место">
+               <input type="checkbox">
+               <p>Парковочное место</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Оплата больничных">
+               <input type="checkbox">
+               <p>Оплата больничных</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Система наставничества">
+               <input type="checkbox">
+               <p>Система наставничества</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Питание">
+               <input type="checkbox">
+               <p>Питание</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="ДМС">
+               <input type="checkbox">
+               <p>ДМС</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Обучение">
+               <input type="checkbox">
+               <p>Обучение</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Обеденная зона и кухня">
+               <input type="checkbox">
+               <p>Обеденная зона и кухня</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Помощь с жильём, переездом">
+               <input type="checkbox">
+               <p>Помощь с жильём, переездом</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Оплата мобильной связи">
+               <input type="checkbox">
+               <p>Оплата мобильной связи</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Корпоративный спорт">
+               <input type="checkbox">
+               <p>Корпоративный спорт</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Удалённая работа">
+               <input type="checkbox">
+               <p>Удалённая работа</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Оплата транспорта">
+               <input type="checkbox">
+               <p>Оплата транспорта</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Корпоративы">
+               <input type="checkbox">
+               <p>Корпоративы</p>
+               <span></span>
+            </label>
+         </div>
+         <div class="list__bottom">
+            <button class="clear text-s16-h22-w400">Сбросить</button>
+            <button class="save text-s16-h22-w500">Cохранить</button>
+         </div>
+      </div>
+
+      <div class="relocate__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Выберите страну для переезда</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="relocate__input">
+               <input type="text" placeholder="Введите название страны" minlength="3" maxlength="60">
+               <div class="list hide">
+                  <p class="item" data-value="Грузия">Грузия</p>
+                  <p class="item" data-value="Испания">Испания</p>
+                  <p class="item" data-value="Болгария">Болгария</p>
+                  <p class="item" data-value="Бразилия">Бразилия</p>
+                  <p class="item" data-value="Италия">Италия</p>
+                  <p class="item" data-value="Черногория">Черногория</p>
+                  <p class="item" data-value="Сербия">Сербия</p>
+                  <p class="item" data-value="Казахстан">Казахстан</p>
+                  <p class="item" data-value="Китай">Китай</p>
+               </div>
+            </div>
+            <div class="relocate__add-list text-s14-h20-w400"></div>
+         </div>
+         <div class="list__bottom text-s16-h22-w400">
+            <button class="clear">Сбросить</button>
+            <button class="save">Cохранить</button>
+         </div>
+      </div>
+
+      <div class="visibility-company__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Выберите компании</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="visibility-company__input">
+               <input type="text" placeholder="Введите название компании" minlength="3" maxlength="60">
+               <div class="list hide">
+                  <p class="item" data-value='ОАО "Газпром"'>ОАО "Газпром"</p>
+                  <p class="item" data-value='ОАО "Роснефть"'>ОАО "Роснефть"</p>
+                  <p class="item" data-value='ОАО "Лукойл"'>ОАО "Лукойл"</p>
+                  <p class="item" data-value='ОАО "Рога и копыта"'>ОАО "Рога и копыта"</p>
+                  <p class="item" data-value='ОАО "Еще какая то компания"'>ОАО "Еще какая то компания"</p>
+               </div>
+            </div>
+            <div class="visibility-company__add-list text-s14-h20-w400"></div>
+         </div>
+         <div class="list__bottom text-s16-h22-w400">
+            <button class="clear">Сбросить</button>
+            <button class="save">Cохранить</button>
+         </div>
+      </div>
+
+      <div class="preview__list ">
+         <div class="list__title">
+            <button></button>
+            <p class="text-s16-h22-w600">Предпросмотр резюме</p>
+         </div>
+         <div class="list text-s15-h18-w400">
+            <div class="basic__information">
+               <div class="image">
+                  <img class="image__picture" src="" />
+                  <img class="image__plaseholder" src="images/photo-icon.svg" alt="photo">
+               </div>
+               <p class="name text-s16-h22-w500"></p>
+               <p class="dopinfo text-s16-h22-w400"></p>
+            </div>
+
+            <p class="career-object__name text-s18-h22-w500">Художник-костюмер</p>
+
+            <p class="income-value text-s15-h18-w400"></p>
+
+            <div class="requirements hide">
+               <div class="working__format hide">
+                  <span class="name text-s14-h20-w500">Формат работы</span>
+                  <span class="value text-s14-h20-w400"></span>
+               </div>
+               <div class="schedule hide">
+                  <span class="name text-s14-h20-w500">Занятость</span>
+                  <span class="value text-s14-h20-w400"></span>
+               </div>
+               <div class="working__mode hide">
+                  <span class="name text-s14-h20-w500">Режим работы</span>
+                  <span class="value text-s14-h20-w400"></span>
+               </div>
+               <div class="bisness__trip hide">
+                  <span class="name text-s14-h20-w500">Готовность к командировкам</span>
+                  <span class="value text-s14-h20-w400"></span>
+               </div>
+               <div class="relocation hide">
+                  <span class="name text-s14-h20-w500">Готовность к переезду</span>
+                  <span class="value text-s14-h20-w400"></span>
+               </div>
+            </div>
+
+            <div class="no__experience hide">
+               <h5 class="text-s16-h22-w600">Нет опыта работы</h5>
+               <div class="value"></div>
+            </div>
+
+            <div class="have__experience hide">
+               <h5 class="text-s16-h22-w600">Опыт работы</h5>
+               <div class="value"></div>
+            </div>
+
+            <div class="skills hide">
+               <h5 class="text-s16-h22-w600">Ключевые навыки</h5>
+               <div class="value"></div>
+            </div>
+
+            <div class="education hide">
+               <h5 class="text-s16-h22-w600">Основное образование</h5>
+               <div class="value"></div>
+            </div>
+
+            <div class="additional-education hide">
+               <h5 class="text-s16-h22-w500">Дополнительное образование</h5>
+               <div class="additional-education__value">
+               </div>
+
+               <div class="languages hide">
+                  <h6 class="text-s14-h20-w500">Знание языков</h6>
+                  <div class="languages__value text-s14-h20-w400">
+                  </div>
+               </div>
+            </div>
+
+            <div class="description hide">
+               <h5 class="text-s16-h22-w500">О себе</h5>
+               <p class="value"></p>
+            </div>
+
+            <div class="personal__information hide">
+               <h5 class="text-s16-h22-w500">Личная информация</h5>
+               <div class="citizenship hide">
+                  <p class="name text-s13-h16-w400">Гражданство</p>
+                  <p class="value"></p>
+               </div>
+               <div class="work-permit hide">
+                  <p class="name text-s13-h16-w400">Разрешение на работу</p>
+                  <p class="value"></p>
+               </div>
+               <div class="driver__license hide">
+                  <p class="name text-s13-h16-w400">Категория прав</p>
+                  <p class="value"></p>
+               </div>
+               <div class="car__class hide">
+                  <p class="name text-s13-h16-w400">Класс авто</p>
+                  <p class="value"></p>
+               </div>
+            </div>
+
+            <div class="resume__photo hide">
+               <h5 class="text-s16-h22-w600">Примеры работ, сертификаты, рекомендательные письма</h5>
+               <div class="resume__photo-preview"></div>
+            </div>
+
+            <div class="contact hide">
+               <h5 class="text-s16-h22-w600">Рекомендации</h5>
+               <div class="value">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="background-modal "></div>
+
+
+   <div class="modal-window">
+      <div class="currency-modal">
+         <h5 class="currency-modal-title text-s18-h22-w500">Выберите валюту</h5>
+         <div class="inner">
+            <p class="item active" data-value="" data-name="RUB">RUB</p>
+            <p class="item" data-value="" data-name="USD">USD</p>
+            <p class="item" data-value="" data-name="EUR">EUR</p>
+            <p class="item" data-value="" data-name="KZT">KZT</p>
+            <p class="item" data-value="" data-name="AZN">AZN</p>
+            <p class="item" data-value="" data-name="MDL">MDL</p>
+            <p class="item" data-value="" data-name="TJS">TJS</p>
+            <p class="item" data-value="" data-name="GEL">GEL</p>
+            <p class="item" data-value="" data-name="AMD">AMD</p>
+            <p class="item" data-value="" data-name="UAH">UAH</p>
+            <p class="item" data-value="" data-name="KGS">KGS</p>
+            <p class="item" data-value="" data-name="UZS">UZS</p>
+            <p class="item" data-value="" data-name="BYN">BYN</p>
+            <p class="item" data-value="" data-name="TMT">TMT</p>
+         </div>
+         <button class="currency-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="place__work-modal ">
+         <h5 class="place__work-modal-title text-s18-h22-w500">Опыт работы</h5>
+         <div class="inner text-s15-h18-w400">
+            <input class="company__name" placeholder="Название компании" maxlength="60">
+            <input class="company__position" placeholder="Должность" maxlength="60">
+            <div class="work__period">
+               <h6>Период работы</h6>
+               <input class="work__period-from" placeholder="Начало" type="text">
+               <input class="work__period-to" placeholder="Окончание" type="text">
+            </div>
+            <label class="work__period-switcher switcher-btn">
+               <p>По настоящее время</p>
+               <input type="checkbox">
+               <span></span>
+            </label>
+            <div class="responsibilities">
+               <h6 class="text-s16-h22-w600">Обязанности</h6>
+               <textarea maxlength="300" placeholder="Расскажите о должностных обязанностях"></textarea>
+            </div>
+            <div class="achievements">
+               <h6 class="text-s16-h22-w600">Достижения</h6>
+               <textarea maxlength="300" placeholder="Расскажите о том, чего Вы добились"></textarea>
+            </div>
+            <div class="reasons-for-leaving">
+               <h6 class="text-s16-h22-w600">Причины ухода</h6>
+               <textarea maxlength="300" placeholder="Расскажите, почему прекратилось ваше сотрудничество"></textarea>
+            </div>
+            <div class="notes">
+               <h6 class="text-s16-h22-w600">Примечания</h6>
+               <textarea maxlength="300"
+                  placeholder="Укажите любую другую информацию касательно работы в этой компании"></textarea>
+            </div>
+         </div>
+         <div class="modal__button text-s16-h22-w500">
+            <button class="clear">Отмена</button>
+            <button class="save">Сохранить</button>
+         </div>
+         <button class="place__work-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="education__lavel-modal">
+         <h5 class="education__lavel-modal-title text-s18-h22-w500">Выберите уровень образования</h5>
+         <div class="inner">
+            <p class="item" data-value="Среднее специальное">Среднее специальное</p>
+            <p class="item" data-value="Неоконченное высшее">Неоконченное высшее</p>
+            <p class="item" data-value="Высшее">Высшее</p>
+            <p class="item" data-value="Бакалавриат">Бакалавриат</p>
+            <p class="item" data-value="Магистратура">Магистратура</p>
+            <p class="item" data-value="Кандидат наук">Кандидат наук</p>
+            <p class="item" data-value="Доктор наук">Доктор наук</p>
+         </div>
+         <button class="education__lavel-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="crop__image-modal ">
+         <h5 class="crop__image-modal-title text-s18-h22-w500">Кадрируйте изображение</h5>
+         <div class="inner text-s15-h18-w400">
+            <div class="upload-demo"></div>
+         </div>
+         <div class="modal__button text-s16-h22-w500">
+            <button class="clear">Отмена</button>
+            <button class="save">Сохранить</button>
+         </div>
+         <button class="crop__image-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="month-modal">
+         <h5 class="month-modal-title text-s18-h22-w500">Выберите месяц</h5>
+         <div class="inner">
+            <p class="item" data-value="1" data-name="Январь" data-day="31">Январь</p>
+            <p class="item" data-value="2" data-name="Февраль" data-day="29">Февраль</p>
+            <p class="item" data-value="3" data-name="Март" data-day="31">Март</p>
+            <p class="item" data-value="4" data-name="Апрель" data-day="30">Апрель</p>
+            <p class="item" data-value="5" data-name="Май" data-day="31">Май</p>
+            <p class="item" data-value="6" data-name="Июнь" data-day="30">Июнь</p>
+            <p class="item" data-value="7" data-name="Июль" data-day="31">Июль</p>
+            <p class="item" data-value="8" data-name="Август" data-day="31">Август</p>
+            <p class="item" data-value="9" data-name="Сентябрь" data-day="30">Сентябрь</p>
+            <p class="item" data-value="10" data-name="Октябрь" data-day="31">Октябрь</p>
+            <p class="item" data-value="11" data-name="Ноябрь" data-day="30">Ноябрь</p>
+            <p class="item" data-value="12" data-name="Декабрь" data-day="31">Декабрь</p>
+         </div>
+         <button class="month-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="work__format-modal ">
+         <p class="work__format-modal-title text-s18-h22-w500">Формат работы</p>
+         <div class="inner text-s15-h18-w400">
+            <label class="item checkbox-btn" data-value="Работа в офисе">
+               <input type="checkbox">
+               <p>Работа в офисе</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Удалённо">
+               <input type="checkbox">
+               <p>Удалённо</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Гибридный офис">
+               <input type="checkbox">
+               <p>Гибридный офис</p>
+               <span></span>
+            </label>
+         </div>
+         <div class="modal__button text-s16-h22-w500">
+            <button class="clear">Сбросить</button>
+            <button class="apply">Применить</button>
+         </div>
+         <button class="work__format-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="schedule-modal ">
+         <p class="schedule-modal-title text-s18-h22-w500">Тип занятости</p>
+         <div class="inner text-s15-h18-w400">
+            <label class="item checkbox-btn" data-value="Полная">
+               <input type="checkbox">
+               <p>Полная</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Частичная">
+               <input type="checkbox">
+               <p>Частичная</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Проект">
+               <input type="checkbox">
+               <p>Проект</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Волонтёрство">
+               <input type="checkbox">
+               <p>Волонтёрство</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Стажировка">
+               <input type="checkbox">
+               <p>Стажировка</p>
+               <span></span>
+            </label>
+         </div>
+         <div class="modal__button text-s16-h22-w500">
+            <button class="clear">Сбросить</button>
+            <button class="apply">Применить</button>
+         </div>
+         <button class="schedule-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="working__mode-modal ">
+         <p class="working__mode-modal-title text-s18-h22-w500">График работы</p>
+         <div class="inner text-s15-h18-w400">
+            <label class="item checkbox-btn" data-value="Полный день">
+               <input type="checkbox">
+               <p>Полный день</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Сменный график">
+               <input type="checkbox">
+               <p>Сменный график</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Гибкий график">
+               <input type="checkbox">
+               <p>Гибкий график</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Вахтовый метод">
+               <input type="checkbox">
+               <p>Вахтовый метод</p>
+               <span></span>
+            </label>
+         </div>
+         <div class="modal__button text-s16-h22-w500">
+            <button class="clear">Сбросить</button>
+            <button class="apply">Применить</button>
+         </div>
+         <button class="working__mode-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="visibility-modal">
+         <p class="visibility-modal-title text-s18-h22-w500">Видимость резюме</p>
+         <div class="inner">
+            <p class="item" data-value="" data-name="Видно всем компаниям-клиентам AT-WORK"
+               data-info="Если вы активно ищите работу, то этот вариант самый подходящий. Все компании, которые зарегистрированы на AT-WORK, смогут увидеть Ваше резюме. Это повышает шанс найти подходящую для себя вакансию">
+               <span class="name text-s16-h22-w600">Видно всем компаниям-клиентам AT-WORK</span>
+               <span class="text-s13-h16-w400">Если вы активно ищите работу, то этот вариант самый подходящий. Все
+                  компании, которые зарегистрированы на AT-WORK, смогут увидеть Ваше резюме. Это повышает шанс найти
+                  подходящую для себя вакансию</span>
+            </p>
+            <p class="item" data-value="" data-name="Видно выбранным компаниям"
+               data-info="Ваше резюме смогут просматривать компании, которые вы выберете в списке. Это дает Вам возможность откликаться на все вакансии сайта AT-WORK, но компании, которым вы ограничили просмотр своего резюме, не будут иметь к нему доступ через поиск по базе резюме">
+               <span class="name text-s16-h22-w600">Видно выбранным компаниям</span>
+               <span class="text-s13-h16-w400">Ваше резюме смогут просматривать компании, которые вы выберете в списке.
+                  Это дает Вам возможность откликаться на все вакансии сайта AT-WORK, но компании, которым вы ограничили
+                  просмотр своего резюме, не будут иметь к нему доступ через поиск по базе резюме</span>
+            </p>
+            <p class="item" data-value="" data-name="Скрыто от выбранных компаний, видно остальным"
+               data-info="Ваше резюме будет доступно для просмотра всем компаниям, которые зарегистрированы на AT-WORK, за исключением тех, которые вы отметите в специальном списке. Таким резюме вы сможете откликаться на все вакансии сайта, однако те компании, которым вы запретили просматривать свое резюме, не будут иметь к нему доступ через поиск по базе данных">
+               <span class="name text-s16-h22-w600">Скрыто от выбранных компаний, видно остальным</span>
+               <span class="text-s13-h16-w400">Ваше резюме будет доступно для просмотра всем компаниям, которые
+                  зарегистрированы на AT-WORK, за исключением тех, которые вы отметите в специальном списке. Таким
+                  резюме вы сможете откликаться на все вакансии сайта, однако те компании, которым вы запретили
+                  просматривать свое резюме, не будут иметь к нему доступ через поиск по базе данных</span>
+            </p>
+            <p class="item" data-value="" data-name="Видно только по прямой ссылке"
+               data-info="Ваше резюме не смогут увидеть компании на сайте AT-WORK по базе данных. Это возможно будет сделать только по прямой ссылке.">
+               <span class="name text-s16-h22-w600">Видно только по прямой ссылке</span>
+               <span class="text-s13-h16-w400">Ваше резюме не смогут увидеть компании на сайте AT-WORK по базе данных.
+                  Это возможно будет сделать только по прямой ссылке.</span>
+            </p>
+            <p class="item" data-value="" data-name="Не видно никому"
+               data-info="Ваше резюме будет недоступно для просмотра всем работодателям, а также не будет выводиться в результатах поиска по базе данных. Вы сможете откликаться таким резюме на заинтересовавшие вас вакансии на AT-WORK">
+               <span class="name text-s16-h22-w600">Не видно никому</span>
+               <span class="text-s13-h16-w400">Ваше резюме будет недоступно для просмотра всем работодателям, а также не
+                  будет выводиться в результатах поиска по базе данных. Вы сможете откликаться таким резюме на
+                  заинтересовавшие вас вакансии на AT-WORK</span>
+            </p>
+         </div>
+         <button class="visibility-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="anonymity-modal ">
+         <p class="anonymity-modal-title text-s18-h22-w500">Не показывать:</p>
+         <div class="inner text-s15-h18-w400">
+            <label class="item checkbox-btn" data-value="ФИО и фотографию">
+               <input type="checkbox">
+               <p>ФИО и фотографию</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Все указанные в резюме телефоны">
+               <input type="checkbox">
+               <p>Все указанные в резюме телефоны</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Электронную почту">
+               <input type="checkbox">
+               <p>Электронную почту</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Прочие контакты (Skype, ICQ, соцсети)">
+               <input type="checkbox">
+               <p>Прочие контакты (Skype, ICQ, соцсети)</p>
+               <span></span>
+            </label>
+            <label class="item checkbox-btn" data-value="Все места работы">
+               <input type="checkbox">
+               <p>Все места работы</p>
+               <span></span>
+            </label>
+         </div>
+         <div class="modal__button text-s16-h22-w500">
+            <button class="clear">Сбросить</button>
+            <button class="apply">Применить</button>
+         </div>
+         <button class="anonymity-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="type__publication-modal">
+         <p class="type__publication-modal-title text-s18-h22-w500">Тип публикации резюме</p>
+         <div class="inner">
+            <p class="item" data-value="" data-name="Бесплатно" data-info="Без автообновления"
+               data-period="Срок публикации 30 дней">
+               <span class="name text-s16-h22-w600">Бесплатно</span>
+               <span class="text-s13-h16-w400">Без автообновления</span>
+               <span class="text-s11-h14-w400">Срок 30 дней</span>
+            </p>
+            <p class="item" data-value="" data-name="Горящая" data-info="Размещение в топе поиска и на главной странице"
+               data-period="Срок публикации 30 дней">
+               <span class="name text-s16-h22-w600">Горящая</span>
+               <span class="text-s13-h16-w400">Размещение в топе поиска и на главной странице</span>
+               <span class="text-s11-h14-w400">Срок 30 дней</span>
+               <span class="text-s14-h20-w500">1 700 ₽</span>
+            </p>
+            <p class="item" data-value="" data-name="Автоподнятие"
+               data-info="Без автообновления, поднятие в поиске каждые 3 дня" data-period="Срок публикации 30 дней">
+               <span class="name text-s16-h22-w600">Автоподнятие</span>
+               <span class="text-s13-h16-w400">Без автообновления, поднятие в поиске каждые 3 дня</span>
+               <span class="text-s11-h14-w400">Срок 30 дней</span>
+               <span class="text-s14-h20-w500">1 700 ₽</span>
+            </p>
+            <p class="item" data-value="" data-name="Премиум" data-info="Премиум вакансия имеет размер двух обычных объявлений в каталоге,
+            выделение цветом и две дополнительных картинки-превью плюс инфоблок о компании и подробное описание в
+            виде списком" data-period="Срок публикации 30 дней">
+               <span class="name text-s16-h22-w600">Премиум</span>
+               <span class="text-s13-h16-w400">Премиум вакансия имеет размер двух обычных объявлений в каталоге,
+                  выделение цветом и две дополнительных картинки-превью плюс инфоблок о компании и подробное описание в
+                  виде списком</span>
+               <span class="text-s11-h14-w400">Срок 30 дней</span>
+               <span class="text-s14-h20-w500">1 700 ₽</span>
+            </p>
+         </div>
+         <button class="type__publication-modal-close" data-swipe-threshold="30" data-swipe-timeout="400"
+            data-swipe-ignore="false"></button>
+      </div>
+
+      <div class="success-modal ">
+         <div class="inner">
+            <img src="images/success__icon.svg" alt="images">
+            <h6 class="text-s18-h22-w500">Резюме <span>должность</span> будет опубликована после проверки
+               модератором</h6>
+         </div>
+         <div class="modal__button text-s16-h22-w500">
+            <button class="raise-views">Поднять просмотры</button>
+            <button class="my-resumes">Мои резюме</button>
+         </div>
+      </div>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.2/croppie.js"></script>
+   <!-- редактор изображения -->
+
+   <script src="./js/swiped-events.min.js"></script>
+   <!-- модальные окна -->
+
+   <script src="js/maskInput.js"></script>
+   <!-- маска для ввода даты -->
+
+   <script type="module" src="js/script__load-step.js"></script>
+   <script type="module" src="js/script__step-1.js"></script>
+   <script type="module" src="js/script__step-2.js"></script>
+   <script type="module" src="js/script__step-3.js"></script>
+   <script type="module" src="js/script__step-4.js"></script>
+   <script type="module" src="js/script__step-5.js"></script>
+   <script type="module" src="js/script__step-6.js"></script>
+   <script type="module" src="js/script__step-7.js"></script>
+   <script type="module" src="js/script__preview.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+.step-5 {
+   .section__inner {
+      .only-remote-work {
+         justify-content: space-between;
+         margin-bottom: 16px;
+      }
+      .work__format,
+      .schedule,
+      .working__mode,
+      .bonuses {
+         border-bottom: 1px solid var(--gray-300);
+         padding-bottom: 10px;
+         margin-bottom: 16px;
+         h6 {
+            color: var(--gray-700);
+            margin-bottom: 4px;
+         }
+         p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+      }
+      .business__trips {
+         margin-bottom: 21px;
+         h6 {
+            margin-bottom: 16px;
+         }
+         &-items {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            .item {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 42px;
+               border: 1px solid var(--gray-300);
+               border-radius: 6px;
+               -webkit-border-radius: 6px;
+               -moz-border-radius: 6px;
+               -ms-border-radius: 6px;
+               -o-border-radius: 6px;
+               transition: 0.3s all;
+               -webkit-transition: 0.3s all;
+               -moz-transition: 0.3s all;
+               -ms-transition: 0.3s all;
+               -o-transition: 0.3s all;
+               &.active {
+                  color: var(--orange-800);
+                  border-color: var(--orange-800);
+               }
+            }
+         }
+      }
+      .relocation {
+         &-switcher {
+            justify-content: space-between;
+            margin-bottom: 16px;
+         }
+         &-block {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            pointer-events: none;
+            transition: 0.3s all;
+            -webkit-transition: 0.3s all;
+            -moz-transition: 0.3s all;
+            -ms-transition: 0.3s all;
+            -o-transition: 0.3s all;
+            &.active {
+               max-height: min-content;
+               opacity: 1;
+               overflow: visible;
+               pointer-events: visible;
+               padding-bottom: 10px;
+               border-bottom: 1px solid var(--gray-300);
+            }
+            h6 {
+               color: var(--gray-700);
+               margin-bottom: 4px;
+            }
+            p {
+               white-space: nowrap;
+               overflow: hidden;
+               text-overflow: ellipsis;
+            }
+         }
+      }
+   }
+}

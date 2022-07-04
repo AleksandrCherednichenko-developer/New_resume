@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+   .preview__list .list .basic__information {
+      flex-direction: column;
+      gap: 0px;
+   }
+}

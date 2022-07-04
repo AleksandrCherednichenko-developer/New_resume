@@ -1,0 +1,88 @@
+.step-7 {
+   .section__inner {
+      min-height: calc(100vh - 175px - 59px);
+      .type__publication,
+      .visibility {
+         border-bottom: 1px solid var(--gray-300);
+         padding-bottom: 10px;
+         margin-bottom: 16px;
+         h6 {
+            margin-bottom: 16px;
+         }
+         &-title {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 6px;
+         }
+         &-text {
+            color: var(--gray-700);
+         }
+         &-error {
+            margin-top: 16px;
+            color: var(--red-300);
+         }
+      }
+      .visibility {
+         &-company {
+            color: var(--orange-600);
+            background-color: transparent;
+            padding: 20px 0 10px;
+         }
+      }
+      .anonymity {
+         border-bottom: 1px solid var(--gray-300);
+         margin-bottom: 16px;
+         &-switcher {
+            justify-content: space-between;
+            margin-bottom: 16px;
+         }
+         &-block {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            pointer-events: none;
+            transition: 0.3s all;
+            -webkit-transition: 0.3s all;
+            -moz-transition: 0.3s all;
+            -ms-transition: 0.3s all;
+            -o-transition: 0.3s all;
+            &.active {
+               max-height: min-content;
+               opacity: 1;
+               overflow: visible;
+               pointer-events: visible;
+               margin-bottom: 16px;
+            }
+            h6 {
+               color: var(--gray-700);
+               margin-bottom: 10px;
+            }
+            p {
+               white-space: nowrap;
+               overflow: hidden;
+               text-overflow: ellipsis;
+            }
+         }
+      }
+      .agreement-checkbox {
+         display: flex;
+         justify-content: space-between;
+         margin-top: 10px;
+         &.error {
+            color: var(--red-300);
+         }
+      }
+   }
+   .section__bottom {
+      &::before {
+         height: 130px;
+         background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 1) 00%,
+            rgba(255, 255, 255, 1) 80%,
+            rgba(255, 255, 255, 0) 100%
+         );
+      }
+   }
+}
